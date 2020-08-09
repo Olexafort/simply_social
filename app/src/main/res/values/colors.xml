@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/secondaryLight</color>
+    <color name="colorPrimaryDark">@color/secondaryLight</color>
+    <color name="colorAccent">@color/primaryLight</color>
+
+    <color name="primaryDark">#323441</color>
+
+    <color name="primaryBlue">#66AAFF</color>
+    <color name="primaryYellow">#F8C060</color>
+    <color name="primaryOrange">#FF7F61</color>
+
+    <color name="primaryLight">#FFFFFF</color>
+    <color name="secondaryLight">#FCFCFC</color>
+    <color name="accentLight">#FFF2F2</color>
+</resources>

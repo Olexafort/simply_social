@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_nav_graph"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.olexafort.simply.fragments.FragmentHome"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/fragmentSearch"
+        android:name="com.olexafort.simply.fragments.FragmentSearch"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/fragmentMessages"
+        android:name="com.olexafort.simply.fragments.FragmentMessages"
+        android:label="Messages"
+        tools:layout="@layout/fragment_messages" />
+    <fragment
+        android:id="@+id/fragmentProfile"
+        android:name="com.olexafort.simply.fragments.FragmentProfile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/fragmentPosts"
+        android:name="com.olexafort.simply.fragments.FragmentPosts"
+        android:label="Posts"
+        tools:layout="@layout/fragment_posts" />
+</navigation>
